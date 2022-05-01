@@ -1,0 +1,118 @@
+/* Colors */
+:root{
+    --primary-color: #0e1649;
+    --secondary-color: #ff9f00;
+    --ui-white: #fff;
+    --ui-black: #1c1c1c;
+}
+/* Logo */
+.logo {
+    width: 258px;
+    height: 64px;
+    cursor: pointer;
+}
+
+/* Text tags */
+a{
+    color: var(--secondary-color);
+}
+h3{
+    font-family: Arial;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--ui-black);
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: Times New Roman;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: #0e1649;
+    text-transform: capitalize;
+}
+
+h2{
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: var(--ui-black);
+    text-transform: capitalize;
+}
+
+p{
+    font-family: Arial;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+}
+
+
+/* Space tampletes */
+.s-margin-top{
+    margin-top: 16px;
+}
+
+.m-margin-top{
+    margin-top: 40px;
+}
+
+.l-margin-top{
+    margin-top: 64px;
+}
+
+hr{
+    height: 1px;
+    opacity: 0.2;
+    background-color: var(--primary-color);
+}
+
+
+/* Form assets */
+
+button{
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: var(--secondary-color);
+    flex-grow: 0;
+    border: none;
+    cursor: pointer;
+    font-family: Assistant;
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--ui-white);
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #f08e0e;
+}
+
+button:active{
+    background-color: #fb3;
+}

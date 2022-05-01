@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Bigelow+Rules&family=Grape+Nuts&family=Poppins&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="commons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+    <title>Abra News Page</title>
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- NavBar -->
+        <header class="header-container">
+            <!-- Logo -->
+            <img class="logo" src="./assets/Logo.png" alt="logo">
+            <!-- Burger Buttpn -->
+            <div class="btn-burger">
+                <div class="burger-container">
+                    <span></span>
+                </div>
+            </div>
+            <!-- Links -->
+            <ul class="nav">
+                <li class="link">Courses</li>
+                <li class="link">Careers</li>
+                <li class="link">About us</li>
+                <li class="link">Contact us</li>
+            </ul>
+        </header>
+        <div class="content-container">
+            <!-- Title -->
+            <h4 class="title">Latest updates</h4>
+            <!-- Page Content -->
+            <section class="page-content">
+                <!-- Col 1 -->
+                <div class="col-1">
+                    <!-- Aticles -->
+                    <div class="article">
+                        <h3 class="category-name">Design system</h3>
+                        <h2 class="s-margin-top">How do you handle component spacing in a design system?</h2>
+                        <p class="s-margin-top">Say you’ve got a <strong>&lt;Card /&gt;</strong> component. It’s highly likely it shouldn’t
+                           be butted right up against any other components with no spacing around it.
+                           That’s true for… pretty much every component. So, how do you handle component
+                           spacing in a design system?
+                        </p>
+                        <button class="s-margin-top">read this</button>
+                    </div>
+                    <!--  -->
+                    <hr class="m-margin-top" />
+                    <!--  -->
+                    <img  class="m-margin-top laptop" src="./assets/laptop.png">
+                    <!-- Frontend -->
+                    <div class="article">
+                        <h3 class="category-name s-margin-top">frontend</h3>
+                        <h2 class="s-margin-top">How to Favicon in 2022: Six files that fit most needs</h2>
+                        <p class="s-margin-top">Editor’s note: With the arrival of the new year, this post
+                            has been slightly modified to reflect the fact that this content is still
+                            relevant!
+                        </p>
+                    </div>
+                </div>
+                <!-- Col 2 -->
+                <div class="col-2">
+                    <!--  -->
+                    <img  class="code" src="./assets/code.png">
+                    <!-- Colors -->
+                    <div class="article">
+                        <h3 class="category-name s-margin-top">colors</h3>
+                        <h2 class="s-margin-top">A whistle-stop tour of 4 new CSS color features</h2>
+                        <p class="s-margin-top">I was just writing in my <a href="#">“What’s new in since CSS3?”</a>
+                            article about recent and possible future changes to CSS colors. It’s weirdly
+                            a lot. There are just as many or more new and upcoming ways to define colors
+                            than what we have now. I thought we’d take a really quick look.
+                        </p>
+                        <p class="s-margin-top">First, a major heads up. This stuff is so complicated. I barely understand it.
+                           But here are some aspects:
+                        </p>
+                        <ul  class="s-margin-top">
+                            <li>Before all this upcoming change, we only had RGB as a color model,
+                                and everything dealt with that.
+                            </li>
+                            <li>We had different “color spaces” that handled it differently (e.g.
+                                the rgb() function mapped that RGB color model as a cube with linear
+                                coordinates, the hsl() function mapped that RGB color model as a cylinder)
+                                but it was all sRGB gamut.
+                            </li>
+                            <li>With the upcoming changes, we’re getting new color models and (!) we’re
+                                getting new functions that map that color model differently. So I think
+                                it’s kind of a double-triple whammy.
+                            </li>
+                        </ul>
+                    </div>
+                    <!--  -->
+                    <hr class="m-margin-top" />
+                    <!-- Subscription -->
+                    <div class="article m-margin-top">
+                        <h3 class="category-name">subscription</h3>
+                        <h2 class="s-margin-top">Stay tuned & get new updates</h2>
+                        <p class="s-margin-top">If you'd like to know when we release additional
+                            results or announce next year's edition, just leave us your email below
+                        </p>
+                        <button class="s-margin-top">subscribe</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <!-- Web & Mobile Development -->
+                    <div class="article">
+                        <h3 class="category-name">Web & Mobile Development</h3>
+                        <h2 class="s-margin-top">Building an adaptive favicon</h2>
+                        <p class="s-margin-top">A custom <a href="#">favicon</a> is a great way to polish a web project.
+                            It displays on desktop browser tabs, and also inside "save for later" readers,
+                            other blog posts linking to your site, and more. Traditionally this has been
+                            done with the .ico file type, but recently browsers have allowed use of <a href="#">SVG</a>,
+                            a vector format.
+                        </p>
+                    </div>
+                    <!--  -->
+                    <hr class="m-margin-top" />
+                    <!--  -->
+                    <img src="./assets/careers.png" class="careers m-margin-top">
+                    <!-- Careers -->
+                    <div class="article s-margin-top">
+                        <h3 class="category-name">careers</h3>
+                        <h2 class="s-margin-top">Looking for you!</h2>
+                        <p class="s-margin-top">As part of your role, you will have the opportunity to develop
+                            from scratch, working closely with the product, design, and QA teams to deliver
+                            the best product.
+                            This is a great opportunity to join us and grow with other team members.
+                        </p>
+                        <p class="s-margin-top">Send CV to <a href="#">Jobsil@abra-it.com</a></p>
+                    </div>
+                </div>
+            </section>
+                </div>
+        </div>
+</body>
+</html>
